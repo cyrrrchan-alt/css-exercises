@@ -12,6 +12,27 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  margin: 0px;
+  padding: 8px;
+  display: flex;
+  flex-flow: row wrap;
+
+  gap: 16px;
+}
+
+.header-right {
+  margin: 0px;
+  padding: 8px;
+  display: flex;
+  flex-flow: row wrap;
+
+  gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
@@ -44,5 +65,11 @@ a {
 }
 
 ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0px;
+
+  gap: 16px;
   list-style-type: none;
 }
